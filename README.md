@@ -30,3 +30,13 @@ Repository for notes about Kottans Front-End course and progress reports
   Hmm..is there something that i'm NOT going to use?))
   I think I'll use all of these commands.
 </details>
+
+### [1. Linux CLI and Networking](https://github.com/kottans/frontend/blob/master/tasks/linux-cli-http.md)
+
+<details>
+ <summary>Screenshots</summary>
+</details>
+
+<details>
+ <summary>Reflections</summary>
+</details>
