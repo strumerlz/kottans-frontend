@@ -9,6 +9,13 @@ Repository for notes about Kottans Front-End course and progress reports
 
 <details>
  <summary>Screenshots</summary>
+
+ <img src="git_basics/udacity_course_viewed.jpg" width="90%">
+
+ <img src="git_basics/learngit_main.png" width="90%">
+
+ <img src="git_basics/learngit_remote.png" width="90%">
+ 
 </details>
 
 <details>
