@@ -68,11 +68,11 @@ Repository for notes about Kottans Front-End course and progress reports
  Using CLI for managing print jobs surprised me. I'm too used to use GUI for that purpose)
  As for HTTP part, I was surprised that I need to have some networking basics knowledge to attain full understanding of these articles. 
  I thought  they were for complete beginners.
- What does "HTTP doesn't keep state" actually mean? What is TCP/IP port? So I've searched answers for my questions,
- and now I know what is OSI model, how TCP/IP is used as transport and how Internet really works (in general) :) And what is HTTP, of course.  
+ What does "HTTP doesn't keep state" actually mean? What is TCP/IP port? So I've searched the answers to my questions,
+ and now I know what is OSI model, how TCP/IP is used as transport and how the Internet really works (in general) :) And what is HTTP, of course.  
   
  ### What I'm going to use in future:
- I will use CLI commands for manipulating files and directories, no doubt.
+ I will use CLI commands for manipulating files and directories, no doubt. 
  And I'm going to take courses that are listed in "Optional" and "Extra materials" sections in future.
 
 </details>
