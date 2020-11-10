@@ -45,13 +45,13 @@ Repository for notes about Kottans Front-End course and progress reports
 <details>
  <summary>Screenshots</summary>
 
- <img src="linux__cli/quiz_1.png" width="80%">
+ <img src="linux_cli/quiz_1.png" width="80%">
 
- <img src="linux__cli/quiz_2.png" width="80%">
+ <img src="linux_cli/quiz_2.png" width="80%">
 
- <img src="linux__cli/quiz_3.png" width="80%">
+ <img src="linux_cli/quiz_3.png" width="80%">
 
- <img src="linux__cli/quiz_4.png" width="80%">
+ <img src="linux_cli/quiz_4.png" width="80%">
 
 
 </details>
