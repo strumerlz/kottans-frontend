@@ -76,3 +76,39 @@ Repository for notes about Kottans Front-End course and progress reports
  And I'm going to take courses that are listed in "Optional" and "Extra materials" sections in future.
 
 </details>
+
+---
+
+## [2. Git Collaboration](https://github.com/kottans/frontend/blob/master/tasks/git-collaboration.md)
+
+<details>
+ <summary>Screenshots</summary>
+
+ <img src="task_git_collaboration/git_collaboration_viewed.png" width="80%">
+
+ <img src="task_git_collaboration/learngit_rumping_up.png" width="80%">
+
+ <img src="task_git_collaboration/learngit_advanced_remote.png" width="80%">
+
+
+</details>
+
+<details>
+ <summary>Reflections</summary>
+ 
+  ### What was new:
+ When I first started [GitHub & Collaboration](https://classroom.udacity.com/courses/ud456) course,
+ I thought that after those attempts to make my first committs and PR I was already
+ familiar with all these materials. Ha, not so fast:)
+ Issues, information for contributors, squashing commits with interactive "rebase" command - all of them were new to me.
+ Every single level of the [learngitbranching](https://learngitbranching.js.org/) game brought a lot of new
+ and useful information for me.
+   
+ ### What surprised me:
+ Squashing commits. Really, the "rebase -i" command is a command of a dream.
+  
+ ### What I'm going to use in future:
+ I will use all of these commands. How can I say no to superpowers?
+
+</details>
+
