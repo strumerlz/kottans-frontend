@@ -112,3 +112,30 @@ Repository for notes about Kottans Front-End course and progress reports
 
 </details>
 
+## [Intro to HTML and CSS](https://github.com/kottans/frontend/blob/master/tasks/html-css-intro.md)
+
+<details>
+ <summary>Screenshots</summary>
+
+ <img src="task_html_css_intro/udacity_HTML.jpg" width="80%">
+
+ <img src="task_html_css_intro/codecademy_html_css.jpg" width="80%">
+
+ </details>
+
+<details>
+ <summary>Reflections</summary>
+ 
+  ### What was new:
+  I'd already had some brief knowledge about every topic in this task before I started.
+  So it was a great opportunity to refresh and systematize all that pile of information in my head. 
+  But CSS Grid lesson really gained my knowledge of this layout model.
+   
+ ### What surprised me:
+ Grid Auto Flow, overlapping elements;
+  
+ ### What I'm going to use in future:
+ This is a foundation of the front-end development, so I'm going to use all this knowledge in future.
+ 
+</details>
+
