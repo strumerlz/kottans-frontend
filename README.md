@@ -112,7 +112,7 @@ Repository for notes about Kottans Front-End course and progress reports
 
 </details>
 
-## [Intro to HTML and CSS](https://github.com/kottans/frontend/blob/master/tasks/html-css-intro.md)
+## [3. Intro to HTML and CSS](https://github.com/kottans/frontend/blob/master/tasks/html-css-intro.md)
 
 <details>
  <summary>Screenshots</summary>
