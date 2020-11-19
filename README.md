@@ -112,6 +112,8 @@ Repository for notes about Kottans Front-End course and progress reports
 
 </details>
 
+---
+
 ## [3. Intro to HTML and CSS](https://github.com/kottans/frontend/blob/master/tasks/html-css-intro.md)
 
 <details>
@@ -121,7 +123,7 @@ Repository for notes about Kottans Front-End course and progress reports
 
  <img src="task_html_css_intro/codecademy_html_css.jpg" width="80%">
 
- </details>
+</details>
 
 <details>
  <summary>Reflections</summary>
@@ -131,11 +133,38 @@ Repository for notes about Kottans Front-End course and progress reports
   So it was a great opportunity to refresh and systematize all that pile of information in my head. 
   But CSS Grid lesson really gained my knowledge of this layout model.
    
- ### What surprised me:
- Grid Auto Flow, overlapping elements;
+  ### What surprised me:
+  Grid Auto Flow, overlapping elements;
   
- ### What I'm going to use in future:
- This is a foundation of the front-end development, so I'm going to use all this knowledge in future.
+  ### What I'm going to use in future:
+  This is a foundation of the front-end development, so I'm going to use all this knowledge in future.
+ 
+</details>
+
+---
+
+## [4. Responsive Web Design](https://github.com/kottans/frontend/blob/master/tasks/html-css-responsive.md)
+
+<details>
+ <summary>Screenshots</summary>
+
+ <img src="task_responsive_web_design/flexbox_froggy.jpg" width="80%">
+
+ <img src="task_responsive_web_design/udacity_course_responsive.jpg" width="80%">
+
+</details>
+
+<details>
+ <summary>Reflections</summary>
+ 
+  ### What was new:
+  Common responsive patterns was new to me.
+   
+  ### What surprised me:
+  The fact that CSS pixel is not the same as device pixel.
+  
+  ### What I'm going to use in future:
+  I will use most of the concepts I learnt in the udacity course.
  
 </details>
 
