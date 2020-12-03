@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+       font-family: 'Poppins', 'Quicksand', sans-serif;
+}
+header {
+    display: flex;
+    border: 1px solid silver;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    color: #787878;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.navbar, 
+.navbar_list,
+.nav_item {
+    height: 100%;    
+    }
+
+.navbar_list {
+    display: flex; 
+}
+
+.nav_item {
+    list-style-type: none;
+    border-left : 1px solid silver;
+    padding: 0 10px;
+}
+
+.nav_item a,
+.nav_item a:visited {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    }
+
+.menu_icon {
+    vertical-align:middle;
+    height: 1rem;
+}
+
+
+/*Dropdown menu*/
+
+
