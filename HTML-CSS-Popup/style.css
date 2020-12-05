@@ -18,7 +18,6 @@ header {
     display: flex;
     border-bottom: 1px solid var(--border-color);
     justify-content: space-between;
-    align-items: center;
     height: 3rem;
     color: var(--basic-color);
     position: relative;
@@ -26,7 +25,7 @@ header {
 }
 
 h1 {
-    padding-left: 1rem;
+    margin-left: 1rem;
     font-size: 1.5rem;
 }
 
@@ -95,8 +94,9 @@ h1 {
     box-shadow: 0 1px 4px rgba(0,0,0,0.3);
     overflow-y: auto;
     overflow-x: hidden;
-    height: 17.3rem;
+    height: 17rem;
     border: 1px solid var(--border-color);
+    padding: 0.25rem;
 }
 
 .submenu-list {
@@ -104,9 +104,6 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0.25rem;
-    
-    
 }
 
 .submenu-item {
@@ -144,7 +141,8 @@ h1 {
 }
 
 .submenu-more-hidden {
-    display: none;
+    display: block;
+    
 }
 
 /*Scrollbar styling*/
@@ -160,20 +158,39 @@ h1 {
 	background-color: var(--basic-color);
 }
 
-/*More button*/
+/*"More" button*/
 
-.submenu-more-label {
+.submenu-more-label,
+.kottans-link {
+    margin: 0.25rem;
+    padding:0.25rem;
     display: block;
     border: 1px solid var(--border-color);
-    margin: 0 0.5rem 0 0.5rem;
     text-align: center;
+    text-decoration: underline;
+    font-size: 0.85rem;
+}
+
+.horizontal-rule {
+    display: none;
+    border: 1px solid silver;
+    margin: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
 
 .submenu-more-label:hover,
-.submenu-more-label:focus-within {
+#more-hidden-checkbox:focus ~ .submenu-more-label {
     background-color: var(--hover-focus-background);
+    outline: none;
+    cursor: pointer;
+
 }
 
-#more-hidden-checkbox:checked ~ .submenu-more-hidden {
+#more-hidden-checkbox:checked ~ .submenu-more-hidden,
+#more-hidden-checkbox:checked ~ .horizontal-rule {
     display: block;
 }
+
+#more-hidden-checkbox:checked ~ .submenu-more-label {
+    display: none;
+}
+
