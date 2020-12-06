@@ -1,32 +1,37 @@
 :root {
-    --hover-focus-background: rgb(243, 243, 243);
+    --hover-focus-background: #d6d6d6;
     --basic-color: #595959;
     --border-color: transparent;
 }
-.nav-item > a:focus {
-    outline: none;
-    }
 
 * {
   margin: 0;
   padding: 0;
 }
+
 html{
-       font-family: 'Poppins', 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: var(--basic-color);
+       
+}
+
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 3rem 1fr 3rem;
 }
 header {
     display: flex;
     border-bottom: 1px solid var(--border-color);
     justify-content: space-between;
-    height: 3rem;
-    color: var(--basic-color);
     position: relative;
 
 }
 
 h1 {
-    margin-left: 1rem;
+    margin-left: 10px;
     font-size: 1.5rem;
+    line-height: 3rem;
 }
 
 .navbar, 
@@ -54,6 +59,10 @@ h1 {
     padding: 0 10px;
 }
 
+.nav-item > a:focus {
+    outline: none;
+    }
+
 .nav-item > a:visited {
     color: inherit;
 
@@ -64,10 +73,11 @@ h1 {
     height: 1.2rem;
 }
 
-/*Submenu button*/
+/* Submenu button */
 
 #menu-hidden-checkbox:checked ~ .submenu-hidden {
     display: block;
+    
 }
 
 .hidden-checkbox {
@@ -84,7 +94,7 @@ h1 {
 }
 
 
-/*Submenu*/
+/* Submenu */
 
 .submenu-hidden {
     display: none;
@@ -97,6 +107,7 @@ h1 {
     height: 17rem;
     border: 1px solid var(--border-color);
     padding: 0.25rem;
+    z-index: 99;
 }
 
 .submenu-list {
@@ -141,11 +152,11 @@ h1 {
 }
 
 .submenu-more-hidden {
-    display: block;
+    display: none;
     
 }
 
-/*Scrollbar styling*/
+/* Scrollbar styling */
 
 .submenu-hidden::-webkit-scrollbar
 {
@@ -158,7 +169,7 @@ h1 {
 	background-color: var(--basic-color);
 }
 
-/*"More" button*/
+/* "More" button */
 
 .submenu-more-label,
 .kottans-link {
@@ -169,6 +180,7 @@ h1 {
     text-align: center;
     text-decoration: underline;
     font-size: 0.85rem;
+    color: inherit;
 }
 
 .horizontal-rule {
@@ -178,6 +190,8 @@ h1 {
 }
 
 .submenu-more-label:hover,
+.kottans-link:hover, 
+.kottans-link:focus,
 #more-hidden-checkbox:focus ~ .submenu-more-label {
     background-color: var(--hover-focus-background);
     outline: none;
@@ -194,3 +208,14 @@ h1 {
     display: none;
 }
 
+/* Footer */
+ footer {
+     text-align: end;
+     padding-right: 10px;
+     line-height: 3rem;
+     
+ }
+ footer a {
+    color: inherit;  
+ }
+ 
